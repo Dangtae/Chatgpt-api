@@ -6,7 +6,7 @@ from pydantic import BaseModel
 import os
 import openai
 
-openai.api_key = "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"
+openai.api_key = 
 
 class SloganGenerator:
     def __init__(self, engine= 'gpt-3.5-turbo'):

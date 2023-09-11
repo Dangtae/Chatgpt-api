@@ -2,7 +2,7 @@ import os
 import openai
 
 # Load your API key from an environment variable or secret management service
-openai.api_key = "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"
+openai.api_key = 
 
 # query = input("입력하세요")
 

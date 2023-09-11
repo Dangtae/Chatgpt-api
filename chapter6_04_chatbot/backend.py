@@ -3,7 +3,7 @@ from fastapi import FastAPI, UploadFile, File
 from pydantic import BaseModel
 import openai
 
-openai.api_key = "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"
+openai.api_key = 
 
 def chat(messages):
     response = openai.ChatCompletion.create(model = "gpt-3.5-turbo", messages = messages)

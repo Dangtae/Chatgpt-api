@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import openai
 
-openai.api_key = "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"
+openai.api_key = 
 
 def summarize(text):
     system_instruction = "asistant는 user의 입력을 bullet point로 3줄 요약해준다."

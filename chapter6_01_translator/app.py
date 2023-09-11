@@ -1,7 +1,7 @@
 import openai
 import streamlit as st
 
-openai.api_key = "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"
+openai.api_key = 
 
 
 parallel_example = {
